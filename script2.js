@@ -4,4 +4,4 @@ for ( count = 0; count < 10; count ++ ){
     document.write( "current count : " + count);
     document.write( "<br/>");
 }
-document.write( "Loop stopped");
+document.write( "Loop stopped"); 

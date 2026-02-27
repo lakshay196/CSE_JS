@@ -1,16 +1,10 @@
+var count = 0;
+document.write( "starting loop");
 
-var num = 10;
-console.log ( num );
-console.log ( typeof(num));
-num = false; 
-console.log( num);
-console.log ( typeof(num)); 
-num = undefined;
-console.log(num);
-console.log( typeof(num));
-num = null;
-console.log( num);
-console.log( typeof(num));
-num = 'Lakshay gupta';
-console.log( num);
-console.log( typeof(num));
+while (count < 10 ) {
+    document.write( " current count : " + count + "<br/>");
+    count++;
+
+}
+
+document.write( "Loop stopped! ");
