@@ -1,10 +1,8 @@
-var count = 0;
-document.write( "starting loop");
+let age = 20;
 
-while (count < 10 ) {
-    document.write( " current count : " + count + "<br/>");
-    count++;
-
+if ( age  >= 18 )  {
+    document.write( " vote ") ;
 }
-
-document.write( "Loop stopped! ");
+else {
+    document.write( " not able to vote ");
+}

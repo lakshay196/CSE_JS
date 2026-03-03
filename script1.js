@@ -1,10 +1,20 @@
-const sym1 = Symbol(4);
-console.log(sym1);
-const sym2 = Symbol(4);
-console.log(sym2);
-if ( sym1 == sym2 ) {
-    console.log("true");
-}
-else {
-    console.log("false");
+var grade = 'A';
+document.write( "Entering switch block <br/>");
+switch ( grade ) {
+    case 'A' : document.write( "Good job <br/>");
+    break;
+
+    case 'B' : document.write ( " pretty good <br/>");
+    break;
+
+    case 'C' : document.write ( " passed <br/>");
+    break;
+
+    case 'D' : document.write ( " not so good <br/>");
+    break;
+
+    case 'F' : document.write ( " failed <br/>");
+    break;
+
+    default : document.write( "unknown grade <br/>");
 }
